@@ -1,0 +1,3 @@
+SQL: SELECT, WHERE, GROUP BY e funções de agregação
+
+Manipular e consultar bancos de dados.

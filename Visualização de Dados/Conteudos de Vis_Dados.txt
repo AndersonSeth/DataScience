@@ -1,0 +1,3 @@
+Visualização de Dados: gráficos básicos com Matplotlib e Seaborn
+
+Aprender a visualizar dados.

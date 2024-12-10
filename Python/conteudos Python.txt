@@ -1,0 +1,3 @@
+Python: lógica de programação e sintaxe básica (Listas, Dicionários, Laços, Funções)
+
+Habilidades de programação fundamentais.
