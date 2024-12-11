@@ -1,3 +1,24 @@
 SQL: SELECT, WHERE, GROUP BY e funções de agregação
 
 Manipular e consultar bancos de dados.
+
+Estudando via curso DIO Ciencia de dados com Python (introdução ao BD Relacional SQL)
+1ºAula: Introdução aos Bancos de Dados Relacionais:
+Estudando conceitos basicos e estrutura de Banco de dados Relacional, conceitos basicos de SQL e Modelagem de banco de dados:
+Criamos um diagrama para estudos com o site creately e tambem com a ia QuickDBD. 
+Na ferramenta QuickDBD foi legal para aprender sobre as chaves (primaria e estrangeiras);
+
+1: Atividade pratica: criei um usiario no cloudclusters e um banco de dados no MariaDB.
+Para manipulações no banco, estou usando o phpMyAdmin, um recurso disponivel na plataforma, 
+mas pretendo manipular via python VSCode.  
+R: apos a leitura da documentação do banco de dados MariaDB disponivel em (https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)
+consegui a conexão. 
+
+2º Aula: Modelagem de dados relacionais:
+Como consegui realizar a conexão optei por seguir via python VsCode para criar as tabelas do Curo;
+Foram criadas as tabelas de:
+-Usuarios
+-Destinos
+-Reservas 
+Assim como no Diagrama.
+O codigo de conexão e criação de tabelas esta bem basico, tudo junto e mostrando o password, devo melhorar isso em breve.
