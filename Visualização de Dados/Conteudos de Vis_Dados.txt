@@ -1,3 +1,36 @@
 Visualização de Dados: gráficos básicos com Matplotlib e Seaborn
 
 Aprender a visualizar dados.
+
+1: Aula: Pedi ao chat GPT me apresentar as bibliotecas Matplotlib e Seaborn 
+
+O que é Matplotlib?
+Biblioteca de visualização de dados de baixo nível e altamente personalizável.
+Permite criar gráficos de linha, barras, histogramas, dispersão (scatter), entre outros.
+Sintaxe semelhante ao Matlab, mas funciona com Python
+
+O que é Seaborn?
+Biblioteca de nível mais alto, construída sobre o Matplotlib.
+Foca em visualizações estatísticas, como gráficos de violino, boxplots e gráficos de correlação.
+Tem um design mais moderno e interativo que o Matplotlib.
+
+🔥 Principais Gráficos de Cada Biblioteca
+
+Com Matplotlib
+plot() - Gráfico de linha
+bar() - Gráfico de barras
+hist() - Histograma
+scatter() - Gráfico de dispersão
+pie() - Gráfico de pizza
+
+Com Seaborn
+sns.scatterplot() - Gráfico de dispersão
+sns.barplot() - Gráfico de barras
+sns.histplot() - Histograma
+sns.boxplot() - Gráfico de caixas (Boxplot)
+sns.heatmap() - Mapa de calor (Heatmap)
+
+Nos codigos de exemplo, instalei as lib e executei um exemplo com conjuntos de numeros primos para grafico de linhas 
+e no exemplo do seaborn um grafico de dispersão gerado randomicamente utilizando a lib do Numpy;
+
+Essa primeira aula não rendeu tanto estudo quanto gostaria, deixando registrado que estou devendo horas nesse cronograma. 
