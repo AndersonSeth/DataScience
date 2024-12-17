@@ -33,20 +33,20 @@ cur = conn.cursor()
 
 # """
 
-criando_tabela_reservas_query = """
-CREATE TABLE IF NOT EXISTS reservas (
-    id INT COMMENT 'Identificador único da reserva',
-    id_usuario INT COMMENT 'referencia ao ID do usuario que fez a reserva',
-    id_destino INT COMMENT 'referencia ao ID do destino da reserva',
-    data DATE COMMENT 'Data da reserva',
-    status VARCHAR(225) DEFAULT 'penente' COMMENT 'Status da reserva(confirmada, pendente, cancelada, etc.)'
-    );
+# criando_tabela_reservas_query = """
+# CREATE TABLE IF NOT EXISTS reservas (
+#     id INT COMMENT 'Identificador único da reserva',
+#     id_usuario INT COMMENT 'referencia ao ID do usuario que fez a reserva',
+#     id_destino INT COMMENT 'referencia ao ID do destino da reserva',
+#     data DATE COMMENT 'Data da reserva',
+#     status VARCHAR(225) DEFAULT 'penente' COMMENT 'Status da reserva(confirmada, pendente, cancelada, etc.)'
+#     );
 
-"""
+# """
 
-try:
-    cur.execute(criando_tabela_reservas_query)
-    print("Tabela 'Reservas' Criada com Sucesso!")
-except mariadb.Error as e:
-    print(f'Erro ao criar a tabela: {e}')
-    sys.exit(1)
+# try:
+#     cur.execute(criando_tabela_reservas_query)
+#     print("Tabela 'Reservas' Criada com Sucesso!")
+# except mariadb.Error as e:
+#     print(f'Erro ao criar a tabela: {e}')
+#     sys.exit(1)
