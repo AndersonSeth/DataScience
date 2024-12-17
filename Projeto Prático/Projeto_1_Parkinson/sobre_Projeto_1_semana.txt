@@ -5,7 +5,7 @@ https://www.kaggle.com/datasets/porinitahoque/parkinsons-telemonitoring
 Linguagem utilizada: Python;
 Bibliotecas utilizadas: Pandas, Numpy, matplotlib e seaborn
 
-
+PROJETO DESCONTINUADO, Base de dados insulficiente.
 
 
 
