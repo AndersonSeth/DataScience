@@ -1,0 +1,11 @@
+A ideia para este primeiro projeto é analisar um arquivo CSV "dataframe" e extrair algumas informações valiosas;
+Iniciei a busca pelo dataframe de um assunto que fosse interessante demonstrar. Encontrei um estudo no Kaggle sobre Parkinson e descidi usar
+https://www.kaggle.com/datasets/porinitahoque/parkinsons-telemonitoring
+
+Linguagem utilizada: Python;
+Bibliotecas utilizadas: Pandas, Numpy, matplotlib e seaborn
+
+
+
+
+
